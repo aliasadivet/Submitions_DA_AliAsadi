@@ -65,10 +65,10 @@ void LED()
 void main()
 {
 	//Pin_Init();			//change to comment when executing second part of the task (just for convenience)
-	Switch_Init();	//change to code instruction when executing second part of the task
+	Switch_Init();			//change to code instruction when executing second part of the task
 	while (1)
 	{
-		//Pulse();		//change to comment when executing second part of the task (just for convenience)
-		LED();		//change to code instruction when executing second part of the task
+		//Pulse();			//change to comment when executing second part of the task (just for convenience)
+		LED();				//change to code instruction when executing second part of the task
 	}
 }
